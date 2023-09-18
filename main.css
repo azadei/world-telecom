@@ -1,0 +1,293 @@
+* {
+  padding: 0;
+  margin: 20;
+  box-sizing: border-box;
+
+}
+
+body {
+  background-size: cover;
+  font-family: 'Rubik', sans-serif;
+  background-color: rgb(255, 255, 255);
+  overflow-x: hidden;
+
+
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* min-height: 100vh;  */
+}
+
+
+.xiaomi,
+.samsung,
+.dyson,
+.supersonic {
+  width: 20%;
+  height: 400px;
+  margin-right: 2%;
+  padding: 10px;
+  border: 1px solid #c9c6c6;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  position: relative;
+}
+
+.fa-regular.fa-heart {
+  position: relative;
+  top: 7px;
+  left: 250px;
+  font-size: 21px;
+}
+
+.red-circle {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  left: 8px;
+  top: 26%;
+  transform: translateY(-50%);
+}
+
+.product-pic img {
+  width: 65%;
+  height: auto;
+  top: 9%;
+  left: 17%;
+  position: absolute;
+}
+
+.product-discount1 {
+  font-size: 15px;
+  color: white;
+  left: 20px;
+  position: absolute;
+  text-align: center;
+}
+
+.product-discount2 {
+  font-size: 9px;
+  color: white;
+  position: absolute;
+  left: 11px;
+  top: 27px;
+}
+
+.product-discount3 {
+  font-size: 9px;
+  color: white;
+  position: absolute;
+  left: 16px;
+  top: 40px;
+}
+
+.name1 {
+  position: absolute;
+  bottom: 110px;
+}
+
+.product-price {
+  position: absolute;
+  bottom: 77px;
+  font-size: 16px;
+}
+
+.kredit {
+  width: 50%;
+  height: 28px;
+  background-color: #efeded;
+  border-radius: 7px;
+  position: absolute;
+  display: flex;
+  align-items: end;
+  justify-content: flex-end;
+  right: 12px;
+  bottom: 87px;
+}
+
+.ay6,
+.ay12,
+.ay18 {
+  font-size: 13px;
+  color: #a29f9f;
+  margin: 6px;
+  margin-right: 13px;
+}
+
+.kredit-calc {
+  font-size: 12.5px;
+  color: black;
+  margin: 6px;
+  margin-right: 13px;
+  position: absolute;
+  display: flex;
+  align-items: end;
+  justify-content: flex-end;
+  right: 12px;
+  bottom: 45px;
+}
+
+.addtobasket {
+  width: 90%;
+  height: 40px;
+  background-color: rgba(131, 193, 39, 0.896);
+  color: white;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 10px;
+  right: 17px;
+  border: none;
+  transition: 0.5s linear;
+}
+
+.p-addtobasket {
+  font-size: 14px;
+  color: white;
+  margin-left: 1%;
+}
+
+.addtobasket:hover {
+  background-color: rgba(97, 145, 25, 0.996);
+  cursor: grab;
+
+}
+
+.container2 {
+  display: flex;
+  min-height: 100vh;
+}
+
+.korzina {
+  font-size: 20px;
+  position: absolute;
+  top: 420px;
+  left: 50px;
+}
+
+.basket {
+  width: 280px;
+  padding: 20px 12px;
+  border-radius: 8px;
+  background: #faf6fc;
+  height: 260px;
+  background-color: rgb(233, 232, 232);
+  right: 60px;
+  top: 450px;
+  position: absolute;
+
+}
+
+.products-in-basket-count {
+  position: absolute;
+  right: 12px;
+
+}
+
+.products-in-basket-text {
+  font-size: 19px;
+}
+
+.total {
+  position: absolute;
+  top: 80px;
+}
+
+.total-price-text {
+  position: absolute;
+  left: 170px;
+  bottom: 1px;
+}
+
+.total-price-logo {
+  position: absolute;
+  left: 248px;
+  bottom: 1px;
+}
+
+.cash-discount {
+  position: absolute;
+  top: 120px;
+}
+
+.discount-price-text {
+  position: absolute;
+  left: 180px;
+  bottom: 1px;
+}
+
+.discount-price-logo {
+  position: absolute;
+  left: 248px;
+  bottom: 1px;
+}
+
+.sum {
+  position: absolute;
+  top: 160px;
+
+}
+
+.amount-text {
+  position: absolute;
+  left: 180px;
+  bottom: 1px;
+}
+
+.amount-logo {
+  position: absolute;
+  left: 248px;
+  bottom: 1px;
+}
+
+.next {
+  width: 90%;
+  height: 35px;
+  position: absolute;
+  bottom: 20px;
+  border-radius: 5px;
+  background-color: rgba(93, 77, 233, 0.918);
+  border: none;
+  color: white;
+}
+
+
+.my-product-xiaomi img {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  bottom: 170px;
+  left: 100px;
+}
+
+.name2 {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 200px;
+  bottom: 200px;
+}
+
+.quantity-control {
+  position: absolute;
+  right: 500px;
+  bottom: 200px;
+
+
+}
+
+.quantity-button {
+  width: 30px;
+  height: 30px;
+  background-color: rgba(255, 255, 255, 0.896);
+  color: rgb(0, 0, 0);
+  border-style: double;
+  border-radius: 5px;
+  margin: 0 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
